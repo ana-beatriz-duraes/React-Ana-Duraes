@@ -1,9 +1,13 @@
-import './App.css';
+import './App.css'
+import Header from "./Component/Header/indexHeader";
 
 function App() {
   return (
+    
     <div className="App">
+      <Header/>
       <header className="App-header">
+     
         {/* <img src={logo} className="App-logo" alt="logo" /> */}
         <p>
           Ana Durães <code></code> meu app em react
