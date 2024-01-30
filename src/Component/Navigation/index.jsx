@@ -1,10 +1,10 @@
+import '../Navigation/CssNavigation.css'
 
 export default function Navigation() {
     return (
-        <div>
-            <img src="" alt="logo" />
-             <li>sobre</li>
-                <li>Contato</li>
+        <div className='lista'>
+            <li className='li'>sobre</li>
+            <li className='li'>Contato</li>
         </div>
     )
 }

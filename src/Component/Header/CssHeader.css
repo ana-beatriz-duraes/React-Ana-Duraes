@@ -1,0 +1,22 @@
+.back{
+    background-color: rgb(5, 5, 5);
+}
+.display{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.Seach__input{
+    display: flex;
+    padding: 10px;
+    flex-grow: 1;
+    border: none;
+    outline:none;
+    font-size: 0.8rem;
+    font-weight: 500px;
+    border-right: 1px solid #ddd;
+}
+

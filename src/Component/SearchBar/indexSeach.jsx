@@ -1,24 +1,19 @@
-import '../Header/CssHeader.css'
-import Navigation from "../Navigation"
-import Logotipo from "../Logotipo"
-import Carrinho from "../Carrinho"
+
+import React from "react";
 import { CiSearch } from 'react-icons/ci';
-import React from 'react'
+import './Seach.css'
 
+export default function SearchBar() {
 
-export default function Header() {
     return (
-
-        <header className="back display">
-            <Logotipo />
+        <div>
             <form action="" >
                 <input type="search" name="" id="" placeholder='Busca de produtos' className='Seach__input' required />
                 <button type='submit' className='seach__buton' >
                     <CiSearch />
                 </button>
             </form>
-            <Navigation />
-            <Carrinho />
-        </header>
+        </div>
     )
 }
+

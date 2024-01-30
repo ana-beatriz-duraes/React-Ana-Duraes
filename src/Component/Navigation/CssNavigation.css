@@ -1,0 +1,10 @@
+.lista{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    flex-direction: row;
+}
+.li{
+    padding: 5px;
+}
